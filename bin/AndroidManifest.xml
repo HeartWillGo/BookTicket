@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.book_ticket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.book_ticket.RegeistActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.IndexActivity"
+            android:label="@string/title_activity_index" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.BookActivity"
+            android:label="@string/title_activity_book" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.ShowTicketActivity"
+            android:label="@string/title_activity_show_ticket" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.MySelfActivity"
+            android:label="@string/title_activity_my_self" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.BuyTicketActivity"
+            android:label="@string/title_activity_buy_ticket" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.AirLineActivity"
+            android:label="@string/title_activity_air_line" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.UnderActivity"
+            android:label="@string/title_activity_under" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket2.NullTicketActivity"
+            android:label="@string/title_activity_null_ticket" >
+        </activity>
+        <activity
+            android:name="com.example.book_ticket.NullTicketActivity"
+            android:label="@string/title_activity_null_ticket" >
+        </activity>
+    </application>
+
+</manifest>
